@@ -37,8 +37,8 @@ int main()
     gettimeofday(&begin, NULL);
     run(a, b, c);
     gettimeofday(&end, NULL);
-    printf("time: %lf\n", (end.tv_sec - begin.tv_sec) + (end.tv_usec - begin.tv_usec) / 1000000.0);
-    print_result();
+    printf("time: %lfs\n", (end.tv_sec - begin.tv_sec) + (end.tv_usec - begin.tv_usec) / 1000000.0);
+    /* print_result(); */
     return 0;
 }
 
