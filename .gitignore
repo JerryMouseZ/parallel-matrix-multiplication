@@ -1,0 +1,5 @@
+*.o
+cmatrix
+ompmatrix
+avxmatrix
+*.txt
